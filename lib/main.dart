@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_user_app/authScreens/auth_screen.dart';
 import 'package:shop_user_app/mainScrrens/home_screen.dart';
 import 'package:shop_user_app/splashScreen/my_splash_screen.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: MySplashScreen(),
+      home: AuthScreen(),
     );
   }
 }
