@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:shop_user_app/mainScrrens/home_screen.dart';
 
